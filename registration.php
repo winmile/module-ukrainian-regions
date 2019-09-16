@@ -1,6 +1,7 @@
 <?php
 /**
- * Copyright © WinMile. All rights reserved.
+ * Copyright © WinMile (https://winmile.net/)
+ * See LICENSE for the license details.
  */
 declare(strict_types = 1);
 
