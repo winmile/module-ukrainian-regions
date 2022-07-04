@@ -116,7 +116,10 @@ class AddDataForUkraine implements DataPatchInterface, PatchRevertableInterface
     {
         $adapter = $this->moduleDataSetup->getConnection();
         foreach ($this->getDataForUkraine() as $region) {
-            $adapter->delete('directory_country_region', ['`country_id` = ?' => $region[0], '`code` = ?' => $region[1]]);
+            $adapter->delete(
+                'directory_country_region',
+                ['`country_id` = ?' => $region[0], '`code` = ?' => $region[1]]
+            );
         }
     }
 }

@@ -31,3 +31,6 @@ bin/magento module:uninstall WinMile_UkrainianRegions
     - MIT Licence added;
     - Zip Codes pattern added;
     - modman support added
+- v1.0.2
+    - Magento 2.4.x support added;
+    - PHP 7.3, 7.4, 8.1 support added;

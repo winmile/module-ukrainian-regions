@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  ~ Copyright © WinMile (https://winmile.net/)
-  ~ See LICENSE for the license details.
-  -->
-
+/**
+ * Copyright © WinMile (https://winmile.net/)
+ * See LICENSE for the license details.
+ */
+ -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <module name="WinMile_UkrainianRegions">
         <sequence>
